@@ -1,0 +1,23 @@
+.Lottery {
+    min-height: 30vh;
+    align-items: center;
+}
+
+.account {
+    text-align: center;
+    color: ghostwhite;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.winner {
+    text-align: center;
+    color: darkkhaki;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.button {
+    text-align: center;
+    margin: 1em;
+}
