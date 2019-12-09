@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import '../css/App.css';
-import 'bootstrap/dist/css/bootstrap.css';
 import TruffleContract from '@truffle/contract'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Web3 from 'web3';
+import Intro from './Intro'
 
 class App extends Component {
   constructor(props) {
@@ -73,8 +74,8 @@ class App extends Component {
             Welcome to Lottery Game 
           </p>
         </header>
-        
-        <footer><small>&copy; Copyright 2019, Myse1f</small></footer>
+        <Intro></Intro>
+        <footer className="App-footer"><small>&copy; Copyright 2019, Myse1f</small></footer>
       </div>
     );
   }
