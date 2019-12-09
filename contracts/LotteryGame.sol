@@ -2,10 +2,10 @@ pragma solidity ^0.5.11;
 
 contract LotteryGame {
     address payable owner; // owner of this contract
-    address payable[] public players;
+    address payable[] players;
     uint BET = 0.1 ether;
-    uint8 public THRESHOLD = 11;
-    uint public settlementBlockNumber;
+    uint8 THRESHOLD = 11;
+    uint settlementBlockNumber;
 
     event Play(address indexed player);
     event Drawing(uint settlementBlockNumber);
@@ -57,5 +57,17 @@ contract LotteryGame {
         }
 
         selfdestruct(owner);
+    }
+
+    function getPlayers() public view returns (address payable[] memory) {
+        return players;
+    }
+
+    function getSettlementBlock() public view returns (uint) {
+        return settlementBlockNumber;
+    }
+
+    function getThreshold() public view returns (uint8) {
+        return THRESHOLD;
     }
 }
