@@ -1,8 +1,17 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [Truffle](https://www.trufflesuite.com/)
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `truffle compile`
+Compile the contracts to a truffle format json file.
+
+### `truffle test`
+Run the test inside test/.
+
+### `truffle migrate`
+Migrate contract to block chain. You can find more infomation  [here](https://www.trufflesuite.com/docs/truffle/getting-started/running-migrations).
 
 ### `yarn start`
 
