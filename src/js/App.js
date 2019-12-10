@@ -14,7 +14,6 @@ class App extends Component {
       lottery: undefined,
       numOfPlayers: 0,
       threshold: 11,
-      winner: '',
     };
     this.initWeb3 = this.initWeb3.bind(this);
   }
@@ -70,7 +69,7 @@ class App extends Component {
         <Lottery 
           web3Provider={this.state.web3Provider}
           account={this.state.account} 
-          winner={this.state.winner}/>
+          />
         <footer className="App-footer"><small>&copy; Copyright 2019, Myse1f</small></footer>
       </div>
     );
