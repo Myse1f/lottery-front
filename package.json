@@ -1,6 +1,7 @@
 {
   "name": "lottery-front",
   "version": "0.1.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@truffle/contract": "^4.1.1",
