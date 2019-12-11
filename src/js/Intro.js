@@ -13,7 +13,7 @@ class Intro extends Component {
                 <Container className="Intro">
                     <Row>
                         <Col md={{span: 6, offset:3}}>
-                            <p>This Lottery Game is based on Ethereum. Contract address is <a href="https://ropsten.etherscan.io/address/0x4B693E745eAaa995aA70c4e10F807d1a6f689A9b" target="_blank" rel="noopener noreferrer" className="App-link">0x4B693E745eAaa995aA70c4e10F807d1a6f689A9b</a>.</p>
+                            <p>This Lottery Game is based on Ethereum. Contract address is <a href="https://ropsten.etherscan.io/address/0xda776c4884E062bc74eBC22069dF2627CA3D9aC1" target="_blank" rel="noopener noreferrer" className="App-link">0xda776c4884E062bc74eBC22069dF2627CA3D9aC1</a>.</p>
                             <p>
                                 You need to install <a href="https://metamask.io/" target="_blank" rel="noopener noreferrer" className="App-link">MetaMask</a> first if you want to participate in this game. Every bet requires 0.1 ether.
                                 As soon as players reach 11, we randomly choose a winner 10 blocks in the future, to get 1 ether for reward.
